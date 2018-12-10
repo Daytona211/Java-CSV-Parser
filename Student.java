@@ -93,7 +93,7 @@ public class Student{
      * @param school- the current school we are creating a file for
      */
     public static void createAndPopulateFile(ArrayList<Student> listOfStudets, String school){
-        String fileName = school + ".txt";
+        String fileName = school + ".csv";
         PrintWriter pw = null;
         try{
             pw = new PrintWriter(fileName);
